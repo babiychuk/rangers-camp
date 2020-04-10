@@ -1,0 +1,21 @@
+.food_page {	
+	width: 100%;
+	background-image: url('../../../img/changeCamp/Food/headerFood.jpg');
+	overflow: hidden;
+	position: relative;
+	z-index: 10;
+	height: 100vh;	
+	-webkit-background-size: cover;
+	background-size: cover;	
+}
+
+.food_page .chang_block {	
+    position: absolute;
+    left: 0;
+    width: 100%;
+    top: 25%;	
+}
+    
+.bg_foodText {
+    background-color: rgb(112,62,143, 0.7);
+}

@@ -1,0 +1,22 @@
+.galaxy_page {	
+	width: 100%;
+	background-image: url('../../../img/changeCamp/Game/headerGame.jpg');
+	overflow: hidden;
+	position: relative;
+	z-index: 10;
+	height: 100vh;	
+	-webkit-background-size: cover;
+	background-size: cover;	
+}
+
+.galaxy_page .chang_block {	
+    position: absolute;
+    left: 0;
+    width: 100%;
+    top: 25%;	
+}
+
+
+.bg_galaxyText {
+    background-color: rgb(28,67,164, 0.7);
+}

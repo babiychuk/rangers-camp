@@ -1,0 +1,13 @@
+@font-face {
+	font-family: "Agency";	
+	src: url("../fonts/Agency/Agency.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "EtelkaMediumProRegular";	
+	src: url("../fonts/EtelkaMediumProRegular/EtelkaMediumProRegular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}

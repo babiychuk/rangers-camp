@@ -1,0 +1,83 @@
+.block_about{
+	width: 100%;
+	background-image: url('../../../img/headerAbout.jpg');
+	overflow: hidden;
+	position: relative;
+	z-index: 10;
+	height: auto;	
+	-webkit-background-size: cover;
+	background-size: cover;			
+}
+
+.block_about:before {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: -1;
+  content: "";
+}
+
+.bg_about {
+  background: rgba(147, 96, 55, 0.7);
+}
+
+.bg_6items {
+	background: rgba(251, 251, 251, 0.5);
+}
+
+.title {
+	color:#fff;
+	text-align:center;
+	text-transform: uppercase;
+}
+
+.title_p {
+	padding-left:40px;
+	padding-right:40px;
+	padding-top:40px;	
+}
+
+.title-about {	
+        font-size:40px;
+        text-align: center;
+        color: #0c8e36;
+        text-transform:uppercase;
+        letter-spacing:3px;
+        text-shadow: #ffffff 1px 1px 0, #ffffff -1px -1px 0, 
+                     #ffffff -1px 1px 0, #ffffff 1px -1px 0;
+}
+
+
+.text_in_block {
+	margin: 20px;
+	padding:5px;
+	border-radius: 0px;
+	color:#fff;
+	font-size:18px;
+	text-align:justify;
+	text-justify: auto;
+	font-weight: 500;	
+}
+
+.text_in_block p {
+	margin: 0px;
+	padding:10px;	 		  
+}
+
+
+@media only screen and (max-width : 480px) {
+
+    .title-about {
+        font-size: 25px;
+    }
+}
+
+@media only screen and (max-width : 320px) {
+
+    .title-about {
+        font-size: 25px;
+    }
+}

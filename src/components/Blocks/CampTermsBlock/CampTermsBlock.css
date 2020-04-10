@@ -1,0 +1,22 @@
+
+.terms-block {
+    padding: 15px;
+    background: rgba(147, 96, 55, 0.1);
+}
+
+.terms-img {
+    width: 40%;
+}
+
+.terms_tittle {
+	color: rgb(147, 96, 55);
+    font-size: 19px;
+    font-weight: 400;
+}
+
+.terms_text {
+	color: #463827;
+    font-size: 14px;
+    text-justify: auto;
+    font-weight: 500;
+}

@@ -1,0 +1,22 @@
+.game_page {	
+	width: 100%;
+	background-image: url('../../../img/changeCamp/Game/headerGame.jpg');
+	overflow: hidden;
+	position: relative;
+	z-index: 10;
+	height: 100vh;	
+	-webkit-background-size: cover;
+	background-size: cover;	
+}
+
+.game_page .chang_block {	
+    position: absolute;
+    left: 0;
+    width: 100%;
+    top: 25%;	
+}
+    
+.bg_gameText {
+    background-color: rgb(223,59,46, 0.7);
+}
+    

@@ -1,0 +1,76 @@
+.block_change{
+	width: 100%;
+	background-image: url('../../../img/headerChange.jpg');
+	overflow: hidden;
+	position: relative;
+	z-index: 10;
+	height: auto;	
+	-webkit-background-size: cover;
+	background-size: cover;			
+}
+
+.block_change:before {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: -1;
+    content: "";
+  }
+  
+
+.card-title {
+    color: #fff;
+    font-size: 26px;
+    text-align: center;
+}
+
+.m0-5-20 {
+    margin: 0 5px 20px;
+}
+
+.bg_hotelRooms {
+	background: rgba(198, 143, 80, .5);  
+}
+
+.btn {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.btn-outline {
+	border-radius: 5px;
+	margin:0 auto;
+	color: #fff;
+    font-size: 12px;
+	text-transform: uppercase;
+    border: solid 2px #fff;
+    transition: all 0.3s ease-in-out;
+	font-weight:600;
+}
+
+.btn-outline:hover{
+	color: #fff;
+    border: solid 2px #fff;
+    background: rgba(255,255,255,.5);
+    transition: all 0.3s ease-in-out;	
+}

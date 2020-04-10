@@ -1,0 +1,13 @@
+.time-wrap {
+        background: #0c8e36;
+        color: #fff;
+        font-size: 16px;
+        padding: 10px 20px;
+        position: absolute;
+        left: 10%;
+        bottom: 35px;
+}
+
+.term-title {
+        color: #0c8e36;
+}

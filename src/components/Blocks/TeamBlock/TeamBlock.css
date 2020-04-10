@@ -1,0 +1,11 @@
+/**Team slider block**/
+.team-slider {
+    background: rgba(147, 96, 55, 0.1);
+}
+.team-slider-title {
+    padding-top: 10px;
+    font-size: 25px;
+    text-align: center;
+    color: #0c8e36;
+    text-transform: uppercase;
+}

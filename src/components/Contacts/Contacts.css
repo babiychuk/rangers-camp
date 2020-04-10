@@ -1,0 +1,40 @@
+.contact_txt {
+    font-size: 20px;
+}
+
+.contact_title {
+    color: #fff;
+    font-weight: 500;
+    padding: 0px 4px;
+    background: rgb(30,126,52,0.7 );
+    text-align: center;
+}
+
+.contact_txt ul li {
+	list-style-type:none;
+}
+
+.contact_item {
+    text-align: left;
+    margin-bottom: 20px;
+    padding-left: 40px;
+}
+    
+.contact_item a {
+    margin: 0 2px;    
+}
+
+@media only screen and (max-width : 480px) {
+
+    .contact_txt {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width : 320px) {
+
+    .contact_txt {
+        font-size: 15px;
+    }
+}
+
