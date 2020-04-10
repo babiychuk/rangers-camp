@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/rangers-camp/static/css/main.14b4accb.chunk.css",
-    "main.js": "/rangers-camp/static/js/main.e2a5f175.chunk.js",
-    "main.js.map": "/rangers-camp/static/js/main.e2a5f175.chunk.js.map",
+    "main.css": "/rangers-camp/static/css/main.883753bd.chunk.css",
+    "main.js": "/rangers-camp/static/js/main.bfdc733b.chunk.js",
+    "main.js.map": "/rangers-camp/static/js/main.bfdc733b.chunk.js.map",
     "runtime-main.js": "/rangers-camp/static/js/runtime-main.22cbfb12.js",
     "runtime-main.js.map": "/rangers-camp/static/js/runtime-main.22cbfb12.js.map",
     "static/css/2.b88b8787.chunk.css": "/rangers-camp/static/css/2.b88b8787.chunk.css",
     "static/js/2.ed41a663.chunk.js": "/rangers-camp/static/js/2.ed41a663.chunk.js",
     "static/js/2.ed41a663.chunk.js.map": "/rangers-camp/static/js/2.ed41a663.chunk.js.map",
     "index.html": "/rangers-camp/index.html",
-    "precache-manifest.5c0126abc53dcaec556ab039e23b2c9d.js": "/rangers-camp/precache-manifest.5c0126abc53dcaec556ab039e23b2c9d.js",
+    "precache-manifest.ac1e554488826b81e0a654ea6da75300.js": "/rangers-camp/precache-manifest.ac1e554488826b81e0a654ea6da75300.js",
     "service-worker.js": "/rangers-camp/service-worker.js",
     "static/css/2.b88b8787.chunk.css.map": "/rangers-camp/static/css/2.b88b8787.chunk.css.map",
-    "static/css/main.14b4accb.chunk.css.map": "/rangers-camp/static/css/main.14b4accb.chunk.css.map",
+    "static/css/main.883753bd.chunk.css.map": "/rangers-camp/static/css/main.883753bd.chunk.css.map",
     "static/js/2.ed41a663.chunk.js.LICENSE.txt": "/rangers-camp/static/js/2.ed41a663.chunk.js.LICENSE.txt",
     "static/media/01-about.png": "/rangers-camp/static/media/01-about.79520ebf.png",
     "static/media/01-change.png": "/rangers-camp/static/media/01-change.985bbd73.png",
@@ -28,7 +28,7 @@
     "static/media/fonts.css": "/rangers-camp/static/media/EtelkaMediumProRegular.b5a0aea4.ttf",
     "static/media/fonVideo.mp4": "/rangers-camp/static/media/fonVideo.f572caac.mp4",
     "static/media/AboutCamp.css": "/rangers-camp/static/media/headerAbout.cbeca2d5.jpg",
-    "static/media/FirstBlock.css": "/rangers-camp/static/media/headerBack.d3d4f2ea.jpg",
+    "static/media/FirstBlock.css": "/rangers-camp/static/media/headerBack.ecd2fb30.jpg",
     "static/media/CampChange.css": "/rangers-camp/static/media/headerChange.67667e6c.jpg",
     "static/media/Five.css": "/rangers-camp/static/media/headerFive.19f56cb0.jpg",
     "static/media/Food.css": "/rangers-camp/static/media/headerFood.c7bfd0a4.jpg",
@@ -72,7 +72,7 @@
     "static/js/runtime-main.22cbfb12.js",
     "static/css/2.b88b8787.chunk.css",
     "static/js/2.ed41a663.chunk.js",
-    "static/css/main.14b4accb.chunk.css",
-    "static/js/main.e2a5f175.chunk.js"
+    "static/css/main.883753bd.chunk.css",
+    "static/js/main.bfdc733b.chunk.js"
   ]
 }

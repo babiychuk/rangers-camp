@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "11e113f17c52dc5647b1968458b98b4f",
+    "revision": "7ffb3e2384830007c9140b40db44cc77",
     "url": "/rangers-camp/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/rangers-camp/static/css/2.b88b8787.chunk.css"
   },
   {
-    "revision": "690cf0e56ad4854b729e",
-    "url": "/rangers-camp/static/css/main.14b4accb.chunk.css"
+    "revision": "1419e137729975e0192c",
+    "url": "/rangers-camp/static/css/main.883753bd.chunk.css"
   },
   {
     "revision": "57819eae580501bad6b0",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/rangers-camp/static/js/2.ed41a663.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "690cf0e56ad4854b729e",
-    "url": "/rangers-camp/static/js/main.e2a5f175.chunk.js"
+    "revision": "1419e137729975e0192c",
+    "url": "/rangers-camp/static/js/main.bfdc733b.chunk.js"
   },
   {
     "revision": "6f526105110d7e3f7bc9",
@@ -88,8 +88,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/rangers-camp/static/media/headerAbout.cbeca2d5.jpg"
   },
   {
-    "revision": "d3d4f2ea062acc5a1015a50d28497708",
-    "url": "/rangers-camp/static/media/headerBack.d3d4f2ea.jpg"
+    "revision": "ecd2fb3058efdaf14fe4311b0c83faba",
+    "url": "/rangers-camp/static/media/headerBack.ecd2fb30.jpg"
   },
   {
     "revision": "67667e6cf3387e8d6e928298291d9f1a",
