@@ -14,7 +14,7 @@ class AboutCampPage extends React.Component {
         return (
             <div>
                 <Header />
-                <div className="p-t80">
+                <div className="">
                     <AboutCamp />
                     <CampList />
                     <DayTime />

@@ -86,6 +86,12 @@ body {
     background-color: rgb(28,67,164, 0.4);
 }
 
+.block-title{
+    padding-top: 10px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
 /** Style for 5 Camp Change  **/
 
 .change_text {

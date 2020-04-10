@@ -10,7 +10,7 @@ import CampTermsBlock from "../CampTermsBlock/CampTermsBlock";
 class AboutCamp extends React.Component {
     render() {
         return (
-            <div className="block_about" name="about">
+            <div className="block_about p-t80" name="about">
 
                 <div>
                     <div className="title title_p">

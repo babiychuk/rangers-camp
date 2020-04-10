@@ -22,7 +22,7 @@ const CampLocation = ({ google }) => {
 
         <Row className="m20">
             <Col xs="12" md="12">
-                    <h4 className="m20-0 t-center">МАПА ПІДЛІТКОВОГО ТАБОРУ <span className="light_green_color">ZOLOCHE RANGERS CAMP</span> </h4>
+                    <p className="m20-0 t-center block-title">МАПА ПІДЛІТКОВОГО ТАБОРУ <span className="light_green_color">ZOLOCHE RANGERS CAMP</span> </p>
             </Col>
             <Col md="8">
                 <img src={MapRangers} alt="map rangers" className="map-rangers" />

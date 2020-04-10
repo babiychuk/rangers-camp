@@ -30,8 +30,8 @@ class OneDay extends React.Component {
                     </div>
                     <Container className="m-b20">
                         <Row >
-                            <Col xs="12" md="6" className="term-border p20-0">
-                                <Row className="i-center">
+                            <Col xs="12" md="6">
+                                <Row className="i-center m-b20">
                                     <Col md="6" className="term-time">
                                         <img src={Img200} alt="Безпека zoloche rangers camp" />
                                         <div className="time-wrap"> 08:00-09:25</div>
@@ -42,8 +42,8 @@ class OneDay extends React.Component {
                                     </Col>
                                 </Row>
                             </Col>
-                            <Col xs="12" md="6" className="term-border p20-0">
-                                <Row className="i-center">
+                            <Col xs="12" md="6">
+                                <Row className="i-center m-b20">
                                     <Col md="6" className="term-time">
                                         <img src={Img200} alt="ПРОЖИВАННЯ zoloche rangers camp" />
                                         <div className="time-wrap"> 09:30-12:45</div>
@@ -57,8 +57,8 @@ class OneDay extends React.Component {
                             </Col>
                         </Row> 
                         <Row >
-                            <Col xs="12" md="6" className="term-border p20-0">
-                                <Row className="i-center">
+                            <Col xs="12" md="6">
+                                <Row className="i-center m-b20">
                                     <Col md="6" className="term-time">
                                         <img src={Img200} alt="Безпека zoloche rangers camp" />
                                         <div className="time-wrap"> 13:00-16:20</div>
@@ -69,8 +69,8 @@ class OneDay extends React.Component {
                                     </Col>
                                 </Row>
                             </Col>
-                            <Col xs="12" md="6" className="term-border p20-0">
-                                <Row className="i-center">
+                            <Col xs="12" md="6">
+                                <Row className="i-center m-b20">
                                     <Col md="6" className="term-time">
                                         <img src={Img200} alt="ПРОЖИВАННЯ zoloche rangers camp" />
                                         <div className="time-wrap">16:30-19:00</div>
@@ -84,8 +84,8 @@ class OneDay extends React.Component {
                             </Col>
                         </Row> 
                         <Row >
-                            <Col xs="12" md="6" className="term-border p20-0">
-                                <Row className="i-center">
+                            <Col xs="12" md="6">
+                                <Row className="i-center m-b20">
                                     <Col md="6" className="term-time">
                                         <img src={Img200} alt="Безпека zoloche rangers camp" />
                                         <div className="time-wrap"> 19:30-20:45</div>
@@ -96,8 +96,8 @@ class OneDay extends React.Component {
                                     </Col>
                                 </Row>
                             </Col>
-                            <Col xs="12" md="6" className="term-border p20-0">
-                                <Row className="i-center">
+                            <Col xs="12" md="6">
+                                <Row className="i-center m-b20">
                                     <Col md="6" className="term-time">
                                         <img src={Img200} alt="ПРОЖИВАННЯ zoloche rangers camp" />
                                         <div className="time-wrap"> 21:00-22:00</div>

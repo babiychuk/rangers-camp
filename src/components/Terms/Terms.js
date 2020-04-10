@@ -34,7 +34,7 @@ class Terms extends React.Component {
                     </div>
                     <Container className="m-b20">
                         <Row >
-                            <Col xs="12" md="12" className="term-border p20-0">
+                            <Col xs="12" md="12" className="m-b20">
                                 <Row className="i-center">
                                     <Col md="3" className="term-time">
                                         <h4 className="term-tittle t-center">БЕЗПЕКА</h4>
@@ -48,7 +48,7 @@ class Terms extends React.Component {
                             </Col>
                         </Row>
                         <Row>
-                            <Col xs="12" md="12" className="term-border p20-0">
+                            <Col xs="12" md="12" className="term-border m-b20">
                                 <Row className="i-center">
                                     <Col md="3" className="term-time">
                                         <h4 className="m20-0 term-tittle t-center">ПРОЖИВАННЯ</h4>
@@ -62,7 +62,7 @@ class Terms extends React.Component {
                             </Col>
                         </Row>
                         <Row >
-                            <Col xs="12" md="12" className="term-border p20-0">
+                            <Col xs="12" md="12" className="term-border m-b20">
                                 <Row className="i-center">
                                     <Col md="3" className="term-time">
                                         <h4 className="m20-0 term-tittle t-center">ГІГІЄНА</h4>
@@ -75,7 +75,7 @@ class Terms extends React.Component {
                             </Col>
                         </Row>
                         <Row >
-                            <Col xs="12" md="12" className="term-border p20-0">
+                            <Col xs="12" md="12" className="term-border m-b20">
                                 <Row className="i-center">
                                     <Col md="3" className="term-time">
                                         <h4 className="m20-0 term-tittle t-center">ІНФРАСТРУКТУРА</h4>
@@ -89,7 +89,7 @@ class Terms extends React.Component {
                             </Col>
                         </Row>
                         <Row >
-                            <Col xs="12" md="12" className="term-border p20-0">
+                            <Col xs="12" md="12" className="term-border m-b20">
                                 <Row className="i-center">
                                     <Col md="3" className="term-time">
                                         <h4 className="m20-0 term-tittle t-center">ХАРЧУВАННЯ</h4>
@@ -102,7 +102,7 @@ class Terms extends React.Component {
                             </Col>
                         </Row>
                         <Row >
-                            <Col xs="12" md="12" className="term-border p20-0">
+                            <Col xs="12" md="12" className="term-border m-b20">
                                 <Row className="i-center">
                                     <Col md="3" className="term-time">
                                         <h4 className="m20-0 term-tittle t-center">ВСЕБІЧНИЙ РОЗВИТОК</h4>
@@ -116,10 +116,10 @@ class Terms extends React.Component {
                             </Col>
                         </Row>
                     </Container>
+                    <TeamBlock />
                     <CampList />
                     <DayTime />
                     <ChangeBlock />
-                    <TeamBlock />
                     <CampLocation />
                 </div>
                 <Footer />

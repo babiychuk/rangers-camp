@@ -10,7 +10,7 @@ const DayTime = (props) => {
         <Container className="m-b20">
             <Row >
                 <Col xs="12" md="12">
-                    <h4 className="m20-0 day-tittle">РОЗКЛАД ДНЯ</h4>
+                    <p className="m20-0 day-tittle block-title">РОЗКЛАД ДНЯ</p>
                 </Col>
                 <Col xs="12" md="4" className="day-border">
                     <Row>

@@ -29,6 +29,11 @@
     .contact_txt {
         font-size: 15px;
     }
+    
+	.contact_item {
+		text-align: center;
+		padding-left: 0;
+	}
 }
 
 @media only screen and (max-width : 320px) {
