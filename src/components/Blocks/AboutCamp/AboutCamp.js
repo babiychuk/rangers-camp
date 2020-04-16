@@ -10,11 +10,11 @@ import CampTermsBlock from "../CampTermsBlock/CampTermsBlock";
 class AboutCamp extends React.Component {
     render() {
         return (
-            <div className="block_about p-t80" name="about">
+            <div className="block_about" name="about">
 
                 <div>
                     <div className="title title_p">
-                        <p><span className="title-about">Zoloche Rangers Camp</span></p>
+                        <p><span className="page-title">Про табір</span></p>
                     </div>
                 </div>
                 <Container>
@@ -22,7 +22,7 @@ class AboutCamp extends React.Component {
                         <Col md="12">
                             <div className="text_in_block bg_about">
                                 <p className="">
-                                    це унікальний комплекс відпочинку для дітей віком від 9 до 16 років виконаний в стилі Wild West
+                                <span className="light_green_color">RANGERS CAMP</span> це унікальний комплекс відпочинку для дітей віком від 9 до 16 років виконаний в стилі Wild West
                                     на території якого заборонено мати поганий настрій. Табір розташований на березі озера Золоче, 
                                     поблизу котеджного містечка Riviare Zoloche. Затишний сосновий ліс, неймовірні пейзажі, 
                                     комфортні побутові умови та цікава насичена програма табору - все для найкращого дитячого відпочинку

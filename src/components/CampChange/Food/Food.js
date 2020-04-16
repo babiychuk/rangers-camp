@@ -28,7 +28,7 @@ class Food extends React.Component {
                                 <Row>
                                     <Col xs="12" sm="8" lg="6" md={{ offset: 6 }}>
                                         <div className="change_text bg_foodText">
-                                            <p className="tittle"><img src={Icon} alt="зміна Food" />ЗМІНА «FOOD»</p>
+                                            <p className="tittle"><img src={Icon} alt="зміна Food" /> 2 ЗМІНА «FOOD»</p>
                                             <p>30 червня — 11 липня</p>
                                             <ul>
                                                 <li><span>переваги зміни переваги зміни</span></li>

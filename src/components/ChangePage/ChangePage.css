@@ -1,0 +1,52 @@
+.page_change{
+	width: 100%;
+	background-image: url('../../img/headerChange.jpg');
+	overflow: hidden;
+	position: relative;
+	z-index: 10;
+	height: auto;	
+	-webkit-background-size: cover;
+	background-size: cover;			
+}
+
+.page_change:before {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: -1;
+    content: "";
+  }
+
+.change_page_text {
+    padding: 40px;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.change_page_text .tittle{
+    font-weight: 600;
+    font-size: 37px;
+    margin: 32px 0;
+}
+
+.change_page_text .price {
+    border-radius: 5px;    
+    color: #fff;  
+    display: inline-block;   
+    padding: 0 10px;
+    font-size: 18px;    
+}
+
+@media only screen and (max-width : 480px) {
+    
+.change_page_text .tittle {
+    font-size: 30px;
+}
+    
+    .change_page_text {
+        margin-bottom: 20px;
+    }
+}

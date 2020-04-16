@@ -4,7 +4,7 @@ import Col from 'react-bootstrap/Col';
 
 
 
-import Video from "../../img/fonVideo.mp4";
+import Video from "../../img/camp.mp4";
 
 import './FirstBlock.css';
 
@@ -20,7 +20,7 @@ class FirstBlock extends React.Component {
 
                 <div className="header_block">
                     <h1>Дитячий лагерь</h1>
-                    <h2>Zoloche Rangers Camp</h2>
+                    <h2>Rangers Camp</h2>
                     <Row>
                         <Col sm={{order: 12 }}>
                             <div className="text_in_header bg_headerText">

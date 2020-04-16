@@ -29,7 +29,7 @@ class Galaxy extends React.Component {
                                     <Col xs="12" sm="8" lg="6" md={{ offset: 6 }}>
                                         <div className="change_text bg_galaxyText">
                                             <i></i>
-                                            <p className="tittle"><img src={Icon} alt="зміна Galaxy" />ЗМІНА GALAXY</p>
+                                            <p className="tittle"><img src={Icon} alt="зміна Galaxy" /> 5 ЗМІНА GALAXY</p>
                                             <p>15 серпня — 26 серпня</p>
                                             <ul>
                                                 <li><span>переваги зміни переваги зміни</span></li>

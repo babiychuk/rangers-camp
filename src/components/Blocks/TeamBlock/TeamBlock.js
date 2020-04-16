@@ -51,12 +51,12 @@ class TeamBlock extends React.Component {
         };
         return (
             <div className="team-slider">
-                <p className="team-slider-title t-center block-title">Команда <span className="light_green_color">ZOLOCHE RANGERS CAMP</span></p>
+                <p className="team-slider-title t-center block-title">Команда <span className="light_green_color">RANGERS CAMP</span></p>
                 <Slider {...settingSlide} className="m20">
                     {this.state.imgs.map((img, num) => (
                         <div className="t-center" key={num}>
                             <div className="team-photo">
-                                <img src={img} alt="Безпека zoloche rangers camp" />
+                                <img src={img} alt="Безпека rangers camp" />
                             </div>
                             <p class="team-name">Ім'я та Прізвище</p>
                             <p class="team-pos">посада людини</p>

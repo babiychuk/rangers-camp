@@ -22,7 +22,7 @@ class FeedBack extends React.Component {
                 <div>
                     <div>
                         <div className="title title_p p-t120">
-                            <p><span className="title-about">Відгуки про Zoloche Rangers Camp</span></p>
+                            <p><span className="page-title">Відгуки про Rangers Camp</span></p>
                         </div>
                     </div>
                     <Container className="m-b20">

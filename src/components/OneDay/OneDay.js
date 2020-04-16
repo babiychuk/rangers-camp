@@ -8,7 +8,6 @@ import Header from "../Header/Header";
 import CampList from "../Blocks/CampList/CampList";
 import CampTermsBlock from "../Blocks/CampTermsBlock/CampTermsBlock";
 import ChangeBlock from "../Blocks/ChangeBlock/ChangeBlock";
-import DayTime from "../Blocks/DayTime/DayTime";
 import CampLocation from "../Blocks/CampLocation/CampLocation";
 import TeamBlock from "../Blocks/TeamBlock/TeamBlock";
 import Footer from "../Footer/Footer";
@@ -25,7 +24,7 @@ class OneDay extends React.Component {
                 <div>
                     <div>
                         <div className="title title_p p-t120">
-                            <p><span className="title-about">Один день в Zoloche Rangers Camp</span></p>
+                            <p><span className="page-title">День в таборі</span></p>
                         </div>
                     </div>
                     <Container className="m-b20">
@@ -33,7 +32,7 @@ class OneDay extends React.Component {
                             <Col xs="12" md="6">
                                 <Row className="i-center m-b20">
                                     <Col md="6" className="term-time">
-                                        <img src={Img200} alt="Безпека zoloche rangers camp" />
+                                        <img src={Img200} alt="Безпека rangers camp" />
                                         <div className="time-wrap"> 08:00-09:25</div>
                                     </Col>
                                     <Col md="6" className="t-just">
@@ -45,7 +44,7 @@ class OneDay extends React.Component {
                             <Col xs="12" md="6">
                                 <Row className="i-center m-b20">
                                     <Col md="6" className="term-time">
-                                        <img src={Img200} alt="ПРОЖИВАННЯ zoloche rangers camp" />
+                                        <img src={Img200} alt="ПРОЖИВАННЯ rangers camp" />
                                         <div className="time-wrap"> 09:30-12:45</div>
                                     </Col>
                                     <Col md="6" className="t-just">
@@ -60,7 +59,7 @@ class OneDay extends React.Component {
                             <Col xs="12" md="6">
                                 <Row className="i-center m-b20">
                                     <Col md="6" className="term-time">
-                                        <img src={Img200} alt="Безпека zoloche rangers camp" />
+                                        <img src={Img200} alt="Безпека rangers camp" />
                                         <div className="time-wrap"> 13:00-16:20</div>
                                     </Col>
                                     <Col md="6" className="t-just">
@@ -72,7 +71,7 @@ class OneDay extends React.Component {
                             <Col xs="12" md="6">
                                 <Row className="i-center m-b20">
                                     <Col md="6" className="term-time">
-                                        <img src={Img200} alt="ПРОЖИВАННЯ zoloche rangers camp" />
+                                        <img src={Img200} alt="ПРОЖИВАННЯ rangers camp" />
                                         <div className="time-wrap">16:30-19:00</div>
                                     </Col>
                                     <Col md="6" className="t-just">
@@ -87,7 +86,7 @@ class OneDay extends React.Component {
                             <Col xs="12" md="6">
                                 <Row className="i-center m-b20">
                                     <Col md="6" className="term-time">
-                                        <img src={Img200} alt="Безпека zoloche rangers camp" />
+                                        <img src={Img200} alt="Безпека rangers camp" />
                                         <div className="time-wrap"> 19:30-20:45</div>
                                     </Col>
                                     <Col md="6" className="t-just">
@@ -99,7 +98,7 @@ class OneDay extends React.Component {
                             <Col xs="12" md="6">
                                 <Row className="i-center m-b20">
                                     <Col md="6" className="term-time">
-                                        <img src={Img200} alt="ПРОЖИВАННЯ zoloche rangers camp" />
+                                        <img src={Img200} alt="ПРОЖИВАННЯ rangers camp" />
                                         <div className="time-wrap"> 21:00-22:00</div>
                                     </Col>
                                     <Col md="6" className="t-just">
@@ -110,10 +109,9 @@ class OneDay extends React.Component {
                                 </Row>
                             </Col>
                         </Row>                        
-                    </Container>
-                    <CampList />                    
-                    <CampTermsBlock />                    
-                    <DayTime />
+                    </Container>                 
+                    <CampTermsBlock />
+                    <CampList />   
                     <TeamBlock />
                     <ChangeBlock />
                     <CampLocation />

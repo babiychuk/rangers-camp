@@ -73,7 +73,7 @@ class Footer extends React.Component {
 				<div className="copyright_block">
 					<div>
 						<div className="copy_txt">
-							Copyright 2017 © Zoloche | All Rights Reserved
+							Copyright 2020 © Zoloche | All Rights Reserved
 						    </div>
 					</div>
 				</div>

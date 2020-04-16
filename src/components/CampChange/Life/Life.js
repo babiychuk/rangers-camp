@@ -28,7 +28,7 @@ class Life extends React.Component {
                                     <Col xs="12" sm="8" lg="6" md={{ offset: 6 }}>
                                         <div className="change_text bg_lifeText">
 
-                                            <p className="tittle"><img src={Icon} alt="зміна Life" /> ЗМІНА «LIFE»</p>
+                                            <p className="tittle"><img src={Icon} alt="зміна Life" /> 1 ЗМІНА «LIFE»</p>
                                             <p>15 червня — 26 червня</p>
                                             <ul>
                                                 <li><span>переваги зміни переваги зміни</span></li>

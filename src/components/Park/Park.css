@@ -1,0 +1,10 @@
+.park_page {	
+	width: 100%;
+	background-image: url('../../img/headerPark.jpg');
+	overflow: hidden;
+	position: relative;
+	z-index: 10;
+	height: 100vh;	
+	-webkit-background-size: cover;
+	background-size: cover;	
+}

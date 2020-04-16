@@ -28,7 +28,7 @@ class Five extends React.Component {
                                 <Row>
                                     <Col xs="12" sm="8" lg="6" md={{ offset: 6 }}>
                                         <div className="change_text bg_fiveText">
-                                            <p className="tittle"><img src={Icon} alt="зміна Five" />ЗМІНА «FIVE»</p>
+                                            <p className="tittle"><img src={Icon} alt="зміна Five" /> 3 ЗМІНА «FIVE»</p>
                                             <p>15 липня — 26 липня</p>
                                             <ul>
                                                 <li><span>переваги зміни переваги зміни</span></li>

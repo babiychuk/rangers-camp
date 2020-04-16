@@ -33,7 +33,7 @@ class CampChange extends React.Component {
                                 <p className="">
                                     Під час кожної зміни діти засвоюють різноманітні вміння в залежності від тематики зміни.
                                     Та беруть участь у творчих майстернях створюючи собі та рідним подарунки на згадку.
-                            На літо 2020 року <span className="light_green_color">Zoloche Rangers Camp</span> пропонує 5 змін, які починаються
+                            На літо 2020 року <span className="light_green_color">Rangers Camp</span> пропонує 5 змін, які починаються
                             з 15 Червня та закінчуються 26 Серпня
                             </p>
                             </div>

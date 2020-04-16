@@ -24,14 +24,14 @@ class Team extends React.Component {
                 <div>
                     <div>
                         <div className="title title_p p-t120">
-                            <p><span className="title-about">Команда Zoloche Rangers Camp</span></p>
+                            <p><span className="page-title">Команда Rangers Camp</span></p>
                         </div>
                     </div>
                     <Container className="m-b20">
                         <Row >
                             <Col xs="6" md="3" className="t-center">
                                 <div className="team-photo">
-                                    <img src={Leonid} alt="Безпека zoloche rangers camp" />
+                                    <img src={Leonid} alt="Безпека rangers camp" />
                                 </div>
                                 <p class="team-name">Ім'я та Прізвище</p>
                                 <p class="team-pos">посада людини</p>
@@ -39,7 +39,7 @@ class Team extends React.Component {
                             </Col>
                             <Col xs="6" md="3" className="t-center">
                                 <div className="team-photo">
-                                    <img src={Leonid} alt="Безпека zoloche rangers camp" />
+                                    <img src={Leonid} alt="Безпека rangers camp" />
                                 </div>
                                 <p class="team-name">Ім'я та Прізвище</p>
                                 <p class="team-pos">посада людини</p>
@@ -47,7 +47,7 @@ class Team extends React.Component {
                             </Col>
                             <Col xs="6" md="3" className="t-center">
                                 <div className="team-photo">
-                                    <img src={Leonid} alt="Безпека zoloche rangers camp" />
+                                    <img src={Leonid} alt="Безпека rangers camp" />
                                 </div>
                                 <p class="team-name">Ім'я та Прізвище</p>
                                 <p class="team-pos">посада людини</p>
@@ -55,7 +55,7 @@ class Team extends React.Component {
                             </Col>
                             <Col xs="6" md="3" className="t-center">
                                 <div className="team-photo">
-                                    <img src={Leonid} alt="Безпека zoloche rangers camp" />
+                                    <img src={Leonid} alt="Безпека rangers camp" />
                                 </div>
                                 <p class="team-name">Ім'я та Прізвище</p>
                                 <p class="team-pos">посада людини</p>
@@ -65,7 +65,7 @@ class Team extends React.Component {
                         <Row >
                             <Col xs="6" md="3" className="t-center">
                                 <div className="team-photo">
-                                    <img src={Leonid} alt="Безпека zoloche rangers camp" />
+                                    <img src={Leonid} alt="Безпека rangers camp" />
                                 </div>
                                 <p class="team-name">Ім'я та Прізвище</p>
                                 <p class="team-pos">посада людини</p>
@@ -73,7 +73,7 @@ class Team extends React.Component {
                             </Col>
                             <Col xs="6" md="3" className="t-center">
                                 <div className="team-photo">
-                                    <img src={Leonid} alt="Безпека zoloche rangers camp" />
+                                    <img src={Leonid} alt="Безпека rangers camp" />
                                 </div>
                                 <p class="team-name">Ім'я та Прізвище</p>
                                 <p class="team-pos">посада людини</p>
@@ -81,7 +81,7 @@ class Team extends React.Component {
                             </Col>
                             <Col xs="6" md="3" className="t-center">
                                 <div className="team-photo">
-                                    <img src={Leonid} alt="Безпека zoloche rangers camp" />
+                                    <img src={Leonid} alt="Безпека rangers camp" />
                                 </div>
                                 <p class="team-name">Ім'я та Прізвище</p>
                                 <p class="team-pos">посада людини</p>
@@ -89,7 +89,7 @@ class Team extends React.Component {
                             </Col>
                             <Col xs="6" md="3" className="t-center">
                                 <div className="team-photo">
-                                    <img src={Leonid} alt="Безпека zoloche rangers camp" />
+                                    <img src={Leonid} alt="Безпека rangers camp" />
                                 </div>
                                 <p class="team-name">Ім'я та Прізвище</p>
                                 <p class="team-pos">посада людини</p>

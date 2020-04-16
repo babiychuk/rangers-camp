@@ -61,14 +61,14 @@ class Gallery extends React.Component {
                 <div>
                     <div>
                         <div className="title title_p p-t120">
-                            <p><span className="title-about">Галерея Zoloche Rangers Camp</span></p>
+                            <p><span className="page-title">Галерея Rangers Camp</span></p>
                         </div>
                     </div>
                     <Container className="m-b20">
                         <Row >
                             {this.state.imgs.map((img, num) => (
                                 <Col xs="12" md="4" className="gallery-img">
-                                    <img src={img} alt="галерея zoloche rangers camp" />
+                                    <img src={img} alt="галерея rangers camp" />
                                 </Col>
                             ))}
                         </Row>

@@ -22,7 +22,7 @@ const CampLocation = ({ google }) => {
 
         <Row className="m20">
             <Col xs="12" md="12">
-                    <p className="m20-0 t-center block-title">МАПА ПІДЛІТКОВОГО ТАБОРУ <span className="light_green_color">ZOLOCHE RANGERS CAMP</span> </p>
+                    <p className="m20-0 t-center block-title">МАПА ПІДЛІТКОВОГО ТАБОРУ <span className="light_green_color">RANGERS CAMP</span> </p>
             </Col>
             <Col md="8">
                 <img src={MapRangers} alt="map rangers" className="map-rangers" />
@@ -39,12 +39,12 @@ const CampLocation = ({ google }) => {
                     }}
                 >
                     <Marker
-                        label="Zoloche Rangers Camp"
+                        label="Rangers Camp"
                         position={{ lat: 50.279061, lng: 30.698106 }}
                         name={'Kenyatta International Convention Centre'}
                     >
                         <InfoWindow visible={true} name={'Kenyatta International Convention Centre'} >
-                            <h1>Zoloche Rangers Camp</h1>
+                            <h1>Rangers Camp</h1>
                         </InfoWindow>
                     </Marker>
                 </Map>

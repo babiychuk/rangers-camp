@@ -29,7 +29,7 @@ class Contacts extends React.Component {
                 <div>
                     <div>
                         <div className="title title_p p-t120">
-                            <p><span className="title-about">Контакти</span></p>
+                            <p><span className="page-title">Контакти</span></p>
                         </div>
                     </div>
                     <Container className="m-b20">

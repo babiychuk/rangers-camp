@@ -28,7 +28,7 @@ class Game extends React.Component {
                                 <Row>
                                     <Col xs="12" sm="8" lg="6" md={{ offset: 6 }}>
                                         <div className="change_text bg_gameText">
-                                            <p className="tittle"><img src={Icon} alt="зміна Game"/> ЗМІНА «GAME»</p>
+                                            <p className="tittle"><img src={Icon} alt="зміна Game"/> 4 ЗМІНА «GAME»</p>
                                             <p>30 липня — 10 серпня</p>
                                             <ul>
                                                 <li><span>переваги зміни переваги зміни</span></li>
