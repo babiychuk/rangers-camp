@@ -19,13 +19,13 @@ class FirstBlock extends React.Component {
                 </div>
 
                 <div className="header_block">
-                    <h1>Дитячий лагерь</h1>
+                    <h1>Літній табір</h1>
                     <h2>Rangers Camp</h2>
                     <Row>
                         <Col sm={{order: 12 }}>
-                            <div className="text_in_header bg_headerText">
+                            <div className="text_in_header">
                                 <p className="">
-                                Місце ексклюзивного відпочинку. Пригоди гарантовано!
+                                Місце ексклюзивного відпочинку та щасливих дітей
 						        </p>
                             </div>                        
                         </Col>

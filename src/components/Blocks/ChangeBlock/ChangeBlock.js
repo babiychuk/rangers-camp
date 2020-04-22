@@ -19,7 +19,7 @@ class ChangeBlock extends React.Component {
             <Row className="m0-5-20">
                 <Col md="12">
                     <CardDeck>
-                        <Card className="light_yellow p20-0">
+                        <Card className="bg-none p20-0">
                             <Card.Img variant="top" src={Img1} />
                             <Card.Body>
                                 <Card.Title>
@@ -31,7 +31,7 @@ class ChangeBlock extends React.Component {
                                 </Card.Text>
                             </Card.Body>
                         </Card>
-                        <Card className="light_violet p20-0">
+                        <Card className="bg-none p20-0">
                             <Card.Img variant="top" src={Img2} />
                             <Card.Body>
                                 <Card.Title>
@@ -43,7 +43,7 @@ class ChangeBlock extends React.Component {
                                 </Card.Text>
                             </Card.Body>
                         </Card>
-                        <Card className="light_green p20-0">
+                        <Card className="bg-none p20-0">
                             <Card.Img variant="top" src={Img3} />
                             <Card.Body>
                                 <Card.Title>
@@ -55,7 +55,7 @@ class ChangeBlock extends React.Component {
                                 </Card.Text>
                             </Card.Body>
                         </Card>
-                        <Card className="light_red p20-0">
+                        <Card className="bg-none p20-0">
                             <Card.Img variant="top" src={Img4} />
                             <Card.Body>
                                 <Card.Title>
@@ -67,7 +67,7 @@ class ChangeBlock extends React.Component {
                                 </Card.Text>
                             </Card.Body>
                         </Card>
-                        <Card className="light_blue p20-0">
+                        <Card className="bg-none p20-0">
                             <Card.Img variant="top" src={Img5} />
                             <Card.Body>
                                 <Card.Title>

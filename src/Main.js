@@ -24,19 +24,19 @@ class Main extends React.Component {
         return (
             <HashRouter basename='/'>
                 <Route exact path='/' component={Home} /> 
-                <Route exact path='/about' component={AboutCampPage} /> 
-                <Route exact path='/change' component={ChangePage} />                   
+                <Route exact path='/pro-tabir' component={AboutCampPage} /> 
+                <Route exact path='/zminy' component={ChangePage} />                   
                 <Route exact path='/life' component={Life} />  
                 <Route exact path='/food' component={Food} />  
                 <Route exact path='/five' component={Five} />  
                 <Route exact path='/game' component={Game} />  
                 <Route exact path='/galaxy' component={Galaxy} /> 
-                <Route exact path='/program' component={OneDay} />
-                <Route exact path='/terms' component={Terms} /> 
-                <Route exact path='/team' component={Team} />
-                <Route exact path='/feedback' component={FeedBack} />
-                <Route exact path='/gallery' component={Gallery} />
-                <Route exact path='/contacts' component={Contacts} />
+                <Route exact path='/programa' component={OneDay} />
+                <Route exact path='/umovy' component={Terms} /> 
+                <Route exact path='/komanda' component={Team} />
+                <Route exact path='/vidhuky' component={FeedBack} />
+                <Route exact path='/halereya' component={Gallery} />
+                <Route exact path='/kontakty' component={Contacts} />
                 <Route exact path='/park' component={Park} />  
                 <Route exact path='/admin' component={AdminPanel} />                                
             </HashRouter>

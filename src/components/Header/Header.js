@@ -20,14 +20,14 @@ class Header extends React.Component {
                 <Navbar.Toggle aria-controls="menu-navbar" />
                 <Navbar.Collapse id="menu-navbar">
                     <Nav className="menu">                    
-                        <Nav.Link href="#/about">Про табір</Nav.Link>
-                        <Nav.Link href="#/change">Зміни</Nav.Link>
-                        <Nav.Link href="#/terms">Умови</Nav.Link>
-                        <Nav.Link href="#/program">День в таборі</Nav.Link>
-                        <Nav.Link href="#/team">Команда</Nav.Link>                       
-                        <Nav.Link href="#/gallery">Галерея</Nav.Link>
-                        <Nav.Link href="#/feedback">Відгуки</Nav.Link> 
-                        <Nav.Link href="#/contacts">Контакти</Nav.Link>
+                        <Nav.Link href="#/pro-tabir">Про табір</Nav.Link>
+                        <Nav.Link href="#/zminy">Зміни</Nav.Link>
+                        <Nav.Link href="#/umovy">Умови</Nav.Link>
+                        <Nav.Link href="#/programa">День в таборі</Nav.Link>
+                        <Nav.Link href="#/komanda">Команда</Nav.Link>                       
+                        <Nav.Link href="#/halereya">Галерея</Nav.Link>
+                        <Nav.Link href="#/vidhuky">Відгуки</Nav.Link> 
+                        <Nav.Link href="#/kontakty">Контакти</Nav.Link>
                         <Nav.Link href="#/park"><span className="green_color">Rangers Park</span></Nav.Link>
                     </Nav>
                 </Navbar.Collapse>

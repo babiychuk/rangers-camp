@@ -4,10 +4,40 @@
         font-size: 16px;
         padding: 10px 20px;
         position: absolute;
-        left: 10%;
-        bottom: 35px;
+        right: 0;
+        bottom: 0;
 }
 
-.term-title {
+.day-title {
         color: #0c8e36;
 }
+
+.day-time {
+        color: #ca8e47;
+        text-align: center;
+        font-size: 20px;
+}
+    
+.day-time img {
+        width: 100%;
+        height: auto;
+}
+
+.bg-grey {
+        background-color: #fafafa;
+        padding: 10px;
+}
+
+@media only screen and (max-width : 480px) {
+
+        .bg-grey {
+                background-color: #fff;
+        }
+    }
+    
+    @media only screen and (max-width : 320px) {
+    
+        .bg-grey {
+                background-color: #fff;
+        }
+    }

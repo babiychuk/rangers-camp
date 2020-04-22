@@ -13,10 +13,6 @@
   background: rgba(147, 96, 55, 0.7);
 }
 
-.bg_6items {
-	background: rgba(251, 251, 251, 0.5);
-}
-
 .title {
 	color:#fff;
 	text-align:center;
@@ -30,15 +26,13 @@
 }
 
 .text_in_block {
-	margin: 20px 0;
+	margin-bottom: 20px;
 	padding:5px;
-	border-radius: 5px;
-	color:#fff;
+	border-radius: 5px;	
 	font-size:18px;
 	text-align:justify;
 	text-justify: auto;
-	font-weight: 500;
-		
+	font-weight: 500;		
 }
 
 .text_in_block p {

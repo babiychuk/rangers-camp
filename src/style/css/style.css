@@ -63,6 +63,15 @@ body {
 }
 
 /** Colors **/
+
+.brown-color{
+    color:#eab56a;
+}
+
+.white-color {
+    color:#fff;
+}
+
 .green_color {
     color: #0c8e36;
 }
@@ -87,6 +96,7 @@ body {
     margin: 20px 0;
     border-radius: 5px;
 }
+
   
 .light_yellow {
     background-color: rgba(255,183,28, 0.6); 

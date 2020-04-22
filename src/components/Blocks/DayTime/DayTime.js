@@ -10,65 +10,65 @@ const DayTime = (props) => {
         <Container className="m-b20">
             <Row >
                 <Col xs="12" md="12">
-                    <p className="m20-0 day-tittle block-title">РОЗКЛАД ДНЯ</p>
+                    <p className="m20-0 day-tittle block-title">РОЗПОРЯДОК ДНЯ</p>
                 </Col>
                 <Col xs="12" md="4" className="day-border">
                     <Row>
                         <Col md="4" className="day-time">
-                            08:00 09:25
+                            08:00 10:00
                                 </Col>
                         <Col md="8">
-                            Підготовка до подій дня: підйом, зарядка на березі моря, фітнес / йога, сніданок
+                        Підготовка до подій дня: підйом, руханка, сніданок, шикування.
                                 </Col>
                     </Row>
                 </Col>
                 <Col xs="12" md="4" className="day-border">
                     <Row>
                         <Col md="4" className="day-time">
-                            09:30 12:45
+                            10:15 13:45
                                 </Col>
                         <Col md="8">
-                            Море / басейн, практичні заняття з акторської майстерності, тележурналістиці і ораторської майстерності
+                        Майстерні, спортивні ігри, туристичні випробування
                                 </Col>
                     </Row>
                 </Col>
                 <Col xs="12" md="4" className="day-border">
                     <Row>
                         <Col md="4" className="day-time">
-                            13:00 16:20
+                            14:00 15:25
                                 </Col>
                         <Col md="8">
-                            Обід, тиха година, полуденок
+                        Обід, тиха година, полуденок
                                 </Col>
                     </Row>
                 </Col>
                 <Col xs="12" md="4" className="day-border">
                     <Row>
                         <Col md="4" className="day-time">
-                            16:30 19:00
+                            16:00 19:00
                                 </Col>
                         <Col md="8">
-                            Пляж / басейн, розвиваючі студії
+                        Басейн, активності, спортивні змагання, душ. Загонова діяльність, загальнотаборовий захід.
                                 </Col>
                     </Row>
                 </Col>
                 <Col xs="12" md="4" className="day-border">
                     <Row>
                         <Col md="4" className="day-time">
-                            19:30 20:45
+                            19:00 21:45
                                 </Col>
                         <Col md="8">
-                            Вечеря, дискотека / кінотеатр / фірмова вечірка
+                        Вечеря. Вечірні активності. Захід. Адехі. Дискотека / кінозал
                                 </Col>
                     </Row>
                 </Col>
                 <Col xs="12" md="4" className="day-border">
                     <Row>
                         <Col md="4" className="day-time">
-                            21:00 22:00
+                            21:45 22:30
                                 </Col>
                         <Col md="8">
-                            Друга вечеря, багаття, відбій
+                        Друга вечеря, підсумки дня у загонах, відбій
                                 </Col>
                     </Row>
                 </Col>

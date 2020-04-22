@@ -63,13 +63,13 @@
 	color: #fff;
     font-size: 12px;
 	text-transform: uppercase;
-    border: solid 2px #fff;
+    border: solid 2px #f3c48d;
     transition: all 0.3s ease-in-out;
 	font-weight:600;
 }
 
 .btn-outline:hover{
-	color: #fff;
+	color: #f3c48d;
     border: solid 2px #fff;
     background: rgba(255,255,255,.5);
     transition: all 0.3s ease-in-out;	

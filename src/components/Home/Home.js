@@ -20,9 +20,9 @@ class Home extends React.Component {
                 <Header />
                 <FirstBlock />
                 <AboutCamp /> 
-                <CampChange /> 
-                <CampList />
-                <CampTermsBlock />
+                <CampChange />
+                <CampList />                
+                <CampTermsBlock />                
                 <DayTime />
                 <TeamBlock />
                 <CampLocation />              

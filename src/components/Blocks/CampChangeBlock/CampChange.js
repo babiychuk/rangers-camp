@@ -23,18 +23,17 @@ class CampChange extends React.Component {
 
                 <div>
                     <div className="title title_p">
-                        <p><h4><span className="light_green_color">ЗМІНИ</span></h4></p>
+                        <p><h4>ЗМІНИ</h4></p>
                     </div>
                 </div>
                 <Container>
                     <Row className="row">
                         <Col md="12">
-                            <div className="text_in_block bg_about">
+                            <div className="text_in_block bg_about white-color">
                                 <p className="">
-                                    Під час кожної зміни діти засвоюють різноманітні вміння в залежності від тематики зміни.
-                                    Та беруть участь у творчих майстернях створюючи собі та рідним подарунки на згадку.
-                            На літо 2020 року <span className="light_green_color">Rangers Camp</span> пропонує 5 змін, які починаються
-                            з 15 Червня та закінчуються 26 Серпня
+                                    Зміна у таборі триває 12 днів, тематика завжди різна та ніколи не повторюється.
+                                    Тема зміни розкривається через вечірні заходи, ігри,
+                                    випробування та творчі майстерні.
                             </p>
                             </div>
                         </Col>
@@ -44,7 +43,7 @@ class CampChange extends React.Component {
                 <Row className="m0-5-20">
                     <Col md="12">
                         <CardDeck>
-                            <Card className="light_yellow p20-0">
+                            <Card className="bg-none p20-0">
                                 <Card.Img variant="top" src={Img1} />
                                 <Card.Body>
                                     <Card.Title>
@@ -56,7 +55,7 @@ class CampChange extends React.Component {
                                     </Card.Text>
                                 </Card.Body>
                             </Card>
-                            <Card className="light_violet p20-0">
+                            <Card className="bg-none p20-0">
                                 <Card.Img variant="top" src={Img2} />
                                 <Card.Body>
                                     <Card.Title>
@@ -68,7 +67,7 @@ class CampChange extends React.Component {
                                     </Card.Text>
                                 </Card.Body>
                             </Card>
-                            <Card className="light_green p20-0">
+                            <Card className="bg-none p20-0">
                                 <Card.Img variant="top" src={Img3} />
                                 <Card.Body>
                                     <Card.Title>
@@ -80,7 +79,7 @@ class CampChange extends React.Component {
                                     </Card.Text>
                                 </Card.Body>
                             </Card>
-                            <Card className="light_red p20-0">
+                            <Card className="bg-none p20-0">
                                 <Card.Img variant="top" src={Img4} />
                                 <Card.Body>
                                     <Card.Title>
@@ -92,7 +91,7 @@ class CampChange extends React.Component {
                                     </Card.Text>
                                 </Card.Body>
                             </Card>
-                            <Card className="light_blue p20-0">
+                            <Card className="bg-none p20-0">
                                 <Card.Img variant="top" src={Img5} />
                                 <Card.Body>
                                     <Card.Title>

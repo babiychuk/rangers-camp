@@ -5,8 +5,6 @@ import Col from 'react-bootstrap/Col';
 
 import './AboutCamp.css';
 
-import CampTermsBlock from "../CampTermsBlock/CampTermsBlock";
-
 class AboutCamp extends React.Component {
     render() {
         return (
@@ -20,21 +18,21 @@ class AboutCamp extends React.Component {
                 <Container>
                     <Row className="row">
                         <Col md="12">
-                            <div className="text_in_block bg_about">
+                            <div className="text_in_block brown-color">
                                 <p className="">
-                                <span className="light_green_color">RANGERS CAMP</span> це унікальний комплекс відпочинку для дітей віком від 9 до 16 років виконаний в стилі Wild West
-                                    на території якого заборонено мати поганий настрій. Табір розташований на березі озера Золоче, 
-                                    поблизу котеджного містечка Riviare Zoloche. Затишний сосновий ліс, неймовірні пейзажі, 
-                                    комфортні побутові умови та цікава насичена програма табору - все для найкращого дитячого відпочинку
+                                    Неподалік міста, у затишному куточку Київської області,
+                                    серед неповторної природи, створено місце для щасливих дітей!
+                                    Табір дарує найяскравіший відпочинок для дітей від 8 до 16 років.
+                                    Програма включає в себе ексклюзивні підходи,
+                                    кожна зміна є унікальною за тематикою.
+                                    Ми змогли об’єднати природу та комфорт, екстрим та безпеку
+                                    та будуємо дружні стосунки з кожною дитиною, яка відпочиває у нас.
                             </p>
                             </div>
                         </Col>
                     </Row>
                 </Container>
-                <div className="bg_6items" >
-                    <CampTermsBlock />
-                </div>
-                
+
             </div>
         );
     }
