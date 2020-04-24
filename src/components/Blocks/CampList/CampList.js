@@ -10,7 +10,7 @@ const CampList = (props) => {
         <Container>
             <Row>
                 <Col xs="12" md="12">
-                    <p className="m20-0 t-center block-title">У ТАБОРІ ДИТИНА МАЄ МОЖЛИВІСТЬ</p>
+                    <p className="m20-0 t-center block-title">У ТАБОРI ДИТИНА МАЄ МОЖЛИВIСТЬ</p>
                 </Col>
                 <Col xs="12" md="6">
                     <ul className="campList">

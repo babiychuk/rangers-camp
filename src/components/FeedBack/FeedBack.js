@@ -15,6 +15,9 @@ import TeamBlock from "../Blocks/TeamBlock/TeamBlock";
 import Footer from "../Footer/Footer";
 
 import './FeedBack.css';
+
+import Leonid from "../../img/team/leonid.jpg";
+
 class FeedBack extends React.Component {
     constructor(props) {
         super(props);
@@ -100,13 +103,16 @@ class FeedBack extends React.Component {
                 <div>
                     <div>
                         <div className="title title_p p-t120">
-                            <p><span className="page-title">Відгуки про Rangers Camp</span></p>
+                            <p><span className="page-title">Вiдгуки про Rangers Camp</span></p>
                         </div>
                     </div>
                     <Container className="m-b20">
-                        <Slider {...settingSlide} className="m20">
+                        <Slider {...settingSlide} className="m20 slider-el">
                             {this.state.feedback.map((feedback, num) => (
                                 <div className="t-center" key={num}>
+                                    <div className="team-photo">
+                                        <img src={Leonid} alt="feedback" />
+                                    </div>
                                     <p class="team-name">{feedback.name}</p>
                                     <p class="team-pos">{feedback.text}</p>
                                 </div>

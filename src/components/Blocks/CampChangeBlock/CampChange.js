@@ -23,7 +23,7 @@ class CampChange extends React.Component {
 
                 <div>
                     <div className="title title_p">
-                        <p><h4>ЗМІНИ</h4></p>
+                        <p className="change-title">ЗМIНИ</p>
                     </div>
                 </div>
                 <Container>

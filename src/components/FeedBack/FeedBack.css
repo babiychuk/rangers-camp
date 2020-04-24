@@ -1,0 +1,4 @@
+.slider-el .slick-list .slick-track .slick-slide:nth-child(2n) { 
+    background: rgba(147, 96, 55, 0.1);
+    padding: 20px;
+}

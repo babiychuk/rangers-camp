@@ -19,7 +19,7 @@ class FirstBlock extends React.Component {
                 </div>
 
                 <div className="header_block">
-                    <h1>Літній табір</h1>
+                    <h1>Лiтнiй табiр</h1>
                     <h2>Rangers Camp</h2>
                     <Row>
                         <Col sm={{order: 12 }}>

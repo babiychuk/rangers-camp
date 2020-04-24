@@ -20,6 +20,14 @@
     content: "";
   }
   
+.change-title {
+    font-size:30px;
+    text-align: center;
+    color: #fff;
+    text-transform:uppercase;
+    letter-spacing:5px;
+    font-family: "Agency";
+  }
 
 .card-title {
     color: #fff;

@@ -29,7 +29,7 @@ class ChangePage extends React.Component {
                 <div>
                     <div className="page_change">
                         <div className="title title_p p-t120">
-                            <p><span className="page-title white_color">Зміни</span></p>
+                            <p><span className="page-title white_color">Змiни</span></p>
                         </div>
                         <Container>
                             <Row className="row">

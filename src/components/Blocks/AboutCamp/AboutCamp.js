@@ -12,7 +12,7 @@ class AboutCamp extends React.Component {
 
                 <div>
                     <div className="title title_p">
-                        <p><span className="page-title">Про табір</span></p>
+                        <p><span className="page-title">Про табiр</span></p>
                     </div>
                 </div>
                 <Container>

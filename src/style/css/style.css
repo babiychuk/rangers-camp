@@ -62,10 +62,14 @@ body {
     text-align: justify;
 }
 
+.t-indent {
+    text-indent: 1.5em;
+}
+
 /** Colors **/
 
 .brown-color{
-    color:#eab56a;
+    color: #ca8e47;
 }
 
 .white-color {
