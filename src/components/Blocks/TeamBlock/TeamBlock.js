@@ -5,13 +5,58 @@ import "slick-carousel/slick/slick.css";
 
 import './TeamBlock.css';
 
-import Leonid from "../../../img/team/leonid.jpg";
+import aleksandraEmec from "../../../img/team/aleksandraEmec.jpg";
+import igorVlad from "../../../img/team/igorVlad.JPG";
+import lizaLav from "../../../img/team/lizaLav.jpg";
+import daryaDem from "../../../img/team/daryaDem.jpg";
+import nataliZyb from "../../../img/team/nataliZyb.jpg";
+import anatLyz from "../../../img/team/anatLyz.JPG";
+import IgorGerg from "../../../img/team/IgorGerg.jpg";
+import allTeam from "../../../img/team/allTeam.jpg";
 
 class TeamBlock extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            imgs: [Leonid, Leonid, Leonid, Leonid, Leonid, Leonid]
+            teams: [
+                {
+                    image: aleksandraEmec,
+                    name: "Олександра Ємець",
+                    surname: "Начальник табору"
+                },
+                {
+                    image: igorVlad,
+                    name: "Ігор Владимиров",
+                    surname: "Комендант табору"
+                },
+                {
+                    image: lizaLav,
+                    name: "Ліза Лавриш",
+                    surname: "Коордитнатор з програми"
+                },
+                {
+                    image: daryaDem,
+                    name: "Дар'я Демчук-Маригіна",
+                    surname: "Координатор з програми"
+                },
+                {
+                    image: nataliZyb,
+                    name: "Наталія Зубарєва",
+                    surname: "Координатор з харчування"
+                },
+
+                {
+                    image: anatLyz,
+                    name: "Анатолій Лузанов",
+                    surname: "Координатор з туризму"
+                },
+
+                {
+                    image: IgorGerg,
+                    name: "Ігор Гергель",
+                    surname: "Координатор зі спорту"
+                },
+            ]
         };
     }
 
@@ -53,15 +98,22 @@ class TeamBlock extends React.Component {
             <div className="team-slider">
                 <p className="team-slider-title t-center block-title">Команда <span className="light_green_color">RANGERS CAMP</span></p>
                 <Slider {...settingSlide} className="m20">
-                    {this.state.imgs.map((img, num) => (
+                    {this.state.teams.map((teams, num) => (
                         <div className="t-center" key={num}>
                             <div className="team-photo">
-                                <img src={img} alt="Безпека rangers camp" />
+                                <img src={teams.image} alt="Команда rangers camp" />
                             </div>
-                            <p class="team-name">Ім'я та Прізвище</p>
-                            <p class="team-pos">посада людини</p>
+                            <p class="team-name">{teams.name}</p>
+                            <p class="team-pos">{teams.surname}</p>
                         </div>
                     ))}
+                    <div className="t-center">
+                        <div className="team-photo">
+                            <img src={allTeam} alt="Приеднайся до команды rangers camp" />
+                        </div>
+                        <p class="team-name">Приєднатися до команди</p>
+                        <p class="team-pos"><a target="_blank" rel="noopener noreferrer" href="https://docs.google.com/forms/d/e/1FAIpQLSdyPyDlsca_As0iFyDVK2E-Ebke9b1BZE6VAt8oBr2OVZ5dSw/viewform">заповнити анкету</a></p>
+                    </div>
                 </Slider>
             </div>
         );

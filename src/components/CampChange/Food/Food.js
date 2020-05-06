@@ -31,13 +31,22 @@ class Food extends React.Component {
                                             <p className="tittle"><img src={Icon} alt="зміна Food" /> 2 ЗМІНА «FOOD»</p>
                                             <p>30 червня — 11 липня</p>
                                             <ul>
-                                                <li><span>переваги зміни переваги зміни</span></li>
-                                                <li><span>переваги зміни</span></li>
-                                                <li><span>переваги зміни переваги зміни</span></li>
-                                                <li><span>переваги зміни</span></li>
-                                                <li><span>переваги зміни переваги зміни</span></li>
+                                                <li><span>Практика приготування різних страв</span></li>
+                                                <li><span>«Коктейль паті» біля басейну</span></li>
+                                                <li><span>Кулінарний рекорд з приготування найбільшої страви</span></li>
+                                                <li><span>Зустріч з фахівцем здорового харчування</span></li>
+                                                <li><span>«Grill party»</span></li>
                                             </ul>
                                             <div className="price">14 500 ₴</div>
+                                        </div>
+                                    </Col>
+                                </Row>
+                                <Row>
+                                    <Col xs="12">
+                                        <div className="change_text bg_foodText">
+                                            <div className="t-indent">Зміна «FOOD» присвячена кулінарним шедеврам, ми дізнаємося про корисні сніданки та поставимо рекорд з приготування найбільшої страви.</div>
+                                            <div className="t-indent">Минулого року ми практикувалися у приготуванні десертів, а в цьому році будемо підвищувати свої навички у приготуванні основних страв.</div>
+                                            <div className="t-indent">Учасники зміни візьмуть участь у «Grill party», «Коктейль паті» біля басейну та позмагаються у підготовці «Званої вечері».</div>
                                         </div>
                                     </Col>
                                 </Row>

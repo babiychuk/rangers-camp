@@ -98,7 +98,7 @@ class ChangePage extends React.Component {
                                 <Col xs="12" md="4">
                                     <div className="change_page_text bg_galaxyText">
                                         <p className="tittle"><img src={IconGalaxy} alt="зміна Galaxy" /> 5 ЗМІНА GALAXY</p>
-                                        <p className="t-center">15 серпня — 26 серпня</p>
+                                        <p className="t-center">14 серпня — 25 серпня</p>
                                         <div>
                                             <div className="price green-bg m-r-5">14 000 ₴</div>
                                             <a href="#/galaxy">

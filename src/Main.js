@@ -16,6 +16,8 @@ import Gallery from "./components/Gallery/Gallery";
 import Contacts from "./components/Contacts/Contacts";
 import Park from "./components/Park/Park";
 import AdminPanel from "./components/AdminPanel/AdminPanel";
+import JoinToCamp from "./components/JoinToCamp/JoinToCamp";
+
 
 
 
@@ -38,7 +40,9 @@ class Main extends React.Component {
                 <Route exact path='/halereya' component={Gallery} />
                 <Route exact path='/kontakty' component={Contacts} />
                 <Route exact path='/park' component={Park} />  
-                <Route exact path='/admin' component={AdminPanel} />                                
+                <Route exact path='/admin' component={AdminPanel} />  
+                <Route exact path='/oformlennya-do-taboru' component={JoinToCamp} />  
+                                              
             </HashRouter>
         );
     }

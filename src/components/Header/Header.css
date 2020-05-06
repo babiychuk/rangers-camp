@@ -63,3 +63,23 @@
 	cursor:pointer;
 }
 
+
+.join-to-camp {
+	position: fixed;
+    bottom: 10%;
+	right: -168px;
+    z-index: 999;
+    max-width: 250px;
+	max-height: 250px;
+	transition: all 0.5s linear 0s;
+}
+
+.join-to-camp:hover {
+	right: 0;
+}
+   
+
+.join-to-camp  img {
+    width: 100%;
+    height: auto;
+}
