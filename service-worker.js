@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/rangers-camp/precache-manifest.4daee256c846264d4c7a40350612e521.js"
+  "/rangers-camp/precache-manifest.601dc3f11fd24e2baa12b95fcce9d111.js"
 );
 
 self.addEventListener('message', (event) => {
